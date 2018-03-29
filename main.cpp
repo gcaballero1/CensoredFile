@@ -15,7 +15,7 @@ int main()
   while ( !in.eof() )
   {
         in>>current;
-        if ( (current>='A' && current>='Z') || (current>='a' && current>='z') )
+        if ( (current>='A' && current<='Z') || (current>='a' && current<='z') )
         {
                 list.push_back(current);
         }
